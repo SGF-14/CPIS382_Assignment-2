@@ -1,23 +1,23 @@
 # CPIS382_Assignment-2
 
-## XML RDFS files with data for CPIS 382 Assignment 2
+# XML RDFS files with data for CPIS 382 Assignment 2
 
 This XML RDFS file includes definitions for the following:
 
 ### Classes and Subclasses:
 - HighSchool
 - Person
-- Teacher (subclass of Person)
-- Student (subclass of Person)
-- Manager (subclass of Person)
-- Staff (subclass of Person)
+- - Teacher (subclass of Person)
+- - Student (subclass of Person)
+- - Manager (subclass of Person)
+- - Staff (subclass of Person)
 - Room
-- Canteen (subclass of Room)
-- Library (subclass of Room)
-- PrayerPlace (subclass of Room)
-- Stadium (subclass of Room)
-- Pool (subclass of Room)
-- Medical (subclass of Room)
+- - Canteen (subclass of Room)
+- - Library (subclass of Room)
+- - PrayerPlace (subclass of Room)
+- - Stadium (subclass of Room)
+- - Pool (subclass of Room)
+- - Medical (subclass of Room)
 - Course
 - Group
 - Address
