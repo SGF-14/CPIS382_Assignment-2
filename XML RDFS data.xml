@@ -1,0 +1,145 @@
+<!-- This is a Data Records for the XML RDFS code in this repo-->
+
+
+<rdf:Description rdf:about="#HighSchool1">
+    <rdf:type rdf:resource="#HighSchool"/>
+    <rdfs:label>ibn khaldon High School</rdfs:label>
+    <hasEstablishYear rdf:datatype="xsd:gYear">2000</hasEstablishYear>
+    <hasWebsite rdf:resource="http://ibnkhaldonhighschool1.com"/>
+    <hasAddress rdf:resource="#Address1"/>
+    <hasContactInfo rdf:resource="#ContactInfo1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Person1">
+    <rdf:type rdf:resource="#Person"/>
+    <rdfs:label>John Doe</rdfs:label>
+    <hasFirstName>Abdulqadir</hasFirstName>
+    <hasLastName>Alssaggaff</hasLastName>
+    <hasAge rdf:datatype="xsd:integer">30</hasAge>
+    <hasID>1945431</hasID>
+    <hasAddress rdf:resource="#Address2"/>
+    <hasPhoneNumber rdf:resource="#PhoneNumber1"/>
+    <hasEmail>Abdulqadir@gmail.com</hasEmail>
+    <hasContactInfo rdf:resource="#ContactInfo2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Teacher1">
+    <rdf:type rdf:resource="#Teacher"/>
+    <rdfs:label>Teacher 1</rdfs:label>
+    <teaches rdf:resource="#Course1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Student1">
+    <rdf:type rdf:resource="#Student"/>
+    <rdfs:label>Student 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Manager1">
+    <rdf:type rdf:resource="#Manager"/>
+    <rdfs:label>Manager 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Staff1">
+    <rdf:type rdf:resource="#Staff"/>
+    <rdfs:label>Staff 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Room1">
+    <rdf:type rdf:resource="#Room"/>
+    <rdfs:label>Room 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Canteen1">
+    <rdf:type rdf:resource="#Canteen"/>
+    <rdfs:label>Canteen 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Library1">
+    <rdf:type rdf:resource="#Library"/>
+    <rdfs:label>Library 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#PrayerPlace1">
+    <rdf:type rdf:resource="#PrayerPlace"/>
+    <rdfs:label>Prayer Place 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Stadium1">
+    <rdf:type rdf:resource="#Stadium"/>
+    <rdfs:label>Stadium 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Pool1">
+    <rdf:type rdf:resource="#Pool"/>
+    <rdfs:label>Pool 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Medical1">
+    <rdf:type rdf:resource="#Medical"/>
+    <rdfs:label>Medical Room 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Course1">
+    <rdf:type rdf:resource="#Course"/>
+    <rdfs:label>Mathematics</rdfs:label>
+    <hasCourseName>Mathematics</hasCourseName>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Group1">
+    <rdf:type rdf:resource="#Group"/>
+    <rdfs:label>awarness group</rdfs:label>
+    <hasTeacherLeader rdf:resource="#Teacher1"/>
+    <memberOf rdf:resource="#HighSchool1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Address1">
+    <rdf:type rdf:resource="#Address"/>
+    <rdfs:label>Address 1</rdfs:label>
+    <hasZipCode rdf:datatype="xsd:string">12345</hasZipCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Address2">
+    <rdf:type rdf:resource="#Address"/>
+    <rdfs:label>Address 2</rdfs:label>
+    <hasZipCode rdf:datatype="xsd:string">67890</hasZipCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="#PhoneNumber1">
+    <rdf:type rdf:resource="#PhoneNumber"/>
+    <rdfs:label>Phone Number 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Email1">
+    <rdf:type rdf:resource="#Email"/>
+    <rdfs:label>Email 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Website1">
+    <rdf:type rdf:resource="#Website"/>
+    <rdfs:label>Website 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Activity1">
+    <rdf:type rdf:resource="#Activity"/>
+    <rdfs:label>Activity 1</rdfs:label>
+    <hasActivityDetails rdf:resource="#ActivityDetails1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="#ContactInfo1">
+    <rdf:type rdf:resource="#ContactInfo"/>
+    <rdfs:label>Contact Info 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#ContactInfo2">
+    <rdf:type rdf:resource="#ContactInfo"/>
+    <rdfs:label>Contact Info 2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="#ActivityDetails1">
+    <rdf:type rdf:resource="#ActivityDetails"/>
+    <rdfs:label>Activity Details 1</rdfs:label>
+    <hasActivityName>tree day</hasActivityName>
+    <hasActivityLocation>stadium</hasActivityLocation>
+    <hasActivityDate>2023-11-29</hasActivityDate>
+    <hasActivityDescription>tree planting.</hasActivityDescription>
+</rdf:Description>
